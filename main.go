@@ -63,7 +63,7 @@ func main() {
 	println("Starting proxy server")
 
 	// set up flags
-	tgtAddrPtr := flag.String("addr", "localhost", "address to redirect to, shoudl include protocol")
+	tgtAddrPtr := flag.String("addr", "localhost", "address to redirect to, should include protocol")
 	tgtPortPtr := flag.String("port", "8781", "port to redirect to")
 	portPtr := flag.String("lport", "8782", "port to run proxy server on")
 
